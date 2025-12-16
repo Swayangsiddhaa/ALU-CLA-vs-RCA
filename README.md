@@ -73,9 +73,9 @@ Since the modules share names (like `B_selection`), it is recommended to run the
 
 ### Option B: Running the CLA Design
 1.  Create a project and add these source files:
-    * `alu_8bit_cla.v` (Top Module)
-    * `cla_8bit.v`
-    * `logic_unit.v`
+    * `alu_8bit.v` (Top Module)
+    * `cla.v`
+    * `logic.v`
     * `B_selection.v`
 2.  Add the testbench: `alu_8bit_tb.v`.
 3.  Add the constraints: `constraints_cla.xdc`.
